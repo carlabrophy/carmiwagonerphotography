@@ -1,0 +1,376 @@
+/* 
+font-family: 'Old Standard TT', serif;
+font-family: 'Roboto', sans-serif;
+
+
+color: #7c7d7e;
+color: #42424286; - hover
+background-color: #42424265;
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  color: #7c7d7e;
+  font-family: "Old Standard TT", serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.7;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Old Standard TT", serif;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.3rem;
+  letter-spacing: 5px;
+  padding: 10% 0;
+}
+
+h3 {
+  font-size: 1.5rem;
+  padding-top: 5%;
+}
+
+h4 {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.7rem;
+  letter-spacing: 10px;
+  padding: 10% 0 5%;
+}
+
+h5 {
+  font-size: 1.5rem;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+hr {
+  margin: 0 auto;
+  padding-bottom: 5%;
+  width: 20%;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.logo {
+  width: 25%;
+}
+
+/* HOME Top Container */
+
+header {
+  padding: 2% 0 10%;
+}
+
+.navbar {
+  background-color: #fff;
+}
+
+.nav-hover::after {
+  content: "";
+  border-bottom: 2px;
+  border-bottom-width: 2px;
+  border-bottom-style: dashed;
+  border-bottom-color: white;
+  display: block;
+}
+
+.nav-hover:hover::after {
+  border-bottom-color: #7c7d7e;
+  margin: 0 auto;
+  padding: 0;
+  width: 8%;
+}
+
+.dropdown-menu {
+  border: none;
+  left: auto;
+  margin: 0.125rem auto;
+  text-align: left;
+  text-transform: capitalize;
+  top: auto;
+  width: fit-content;
+}
+
+.font-size-8 {
+  font-size: 0.8rem;
+}
+
+.quote-container {
+  background-color: #fff;
+  text-align: center;
+  padding: 15% 20%;
+}
+
+.container-sub-text {
+  text-align: right;
+}
+
+.bottom-container-col {
+  padding: 0;
+}
+
+.bottom-container-txt {
+  font-size: 0.8rem;
+  padding: 35% 16% 10%;
+  width: 90%;
+}
+
+.bottom-container-subtxt {
+  font-size: 0.6rem;
+  text-align: right;
+  padding-right: 20%;
+}
+
+.bottom-container-txtpad {
+  margin: 0 auto;
+  padding: 50% 15% 10%;
+  width: 100%;
+}
+
+.bottom-container-subtxtpad {
+  padding-right: 15%;
+}
+
+#aboutMe {
+  font-family: "Roboto", sans-serif;
+  padding: 25% 20%;
+  text-align: center;
+}
+
+.carmi-profile {
+  padding-bottom: 10%;
+  width: 50%;
+}
+
+.aboutme-text {
+  font-size: 0.9rem;
+}
+
+/* Bottom */
+
+.img-fluid {
+  width: 100%;
+}
+
+.contact-socialmedias {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 5% 3%;
+}
+
+.contact-cta {
+  padding: 3%;
+}
+
+.contact-media {
+  color: #7c7d7e;
+  font-size: 0.8rem;
+}
+
+.contact-media:hover {
+  color: #bcbfc2;
+  border-bottom-style: dashed;
+  text-decoration: none;
+}
+
+.copy-r {
+  font-size: 0.7rem;
+  padding: 2% 0;
+}
+
+/* INFORMATION */
+
+.btn-space {
+  margin-bottom: 30%;
+  text-transform: capitalize;
+}
+
+.info-list {
+  list-style: none;
+}
+
+/* Journal */
+
+.journal-row {
+  padding-bottom: 25%;
+}
+.journal-img {
+  padding: 15px;
+}
+
+.journal-cta {
+  padding-bottom: 10%;
+  text-align: left;
+}
+
+.journal-btn {
+  margin: 5% 0 0;
+}
+
+@media screen and (min-width: 760px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .logo {
+    width: 15%;
+  }
+
+  .quote-container {
+    font-size: 1.2rem;
+  }
+
+  .container-sub-text {
+    font-size: 0.9rem;
+  }
+
+  .bottom-container-txt {
+    font-size: 1rem;
+    padding-top: 60%;
+  }
+
+  .bottom-container-subtxt {
+    font-size: 0.8rem;
+  }
+
+  .bottom-container-txtpad {
+    padding-top: 70%;
+  }
+
+  #aboutMe {
+    padding: 25%;
+  }
+
+  .aboutme-text {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 990px) {
+  h1 {
+    font-size: 3rem;
+  }
+
+  h2 {
+    font-size: 1.8rem;
+    letter-spacing: 10px;
+  }
+
+  h3 {
+    font-size: 1.8rem;
+  }
+
+  h4 {
+    font-size: 2rem;
+  }
+
+  h5 {
+    font-size: 2rem;
+    padding-bottom: 5%;
+  }
+
+  .navbar {
+    padding-top: 5%;
+  }
+
+  .nav-item {
+    font-size: 1rem;
+    padding-right: 5%;
+  }
+
+  .nav-hover:hover::after {
+    width: 90%;
+  }
+
+  .logo {
+    width: 15%;
+    margin: 0 10% 0 2%;
+  }
+
+  .quote-container {
+    font-size: 1.5rem;
+  }
+
+  .container-sub-text {
+    padding-top: 5%;
+    font-size: 1.1rem;
+  }
+
+  .bottom-container-txt {
+    font-size: 1.4rem;
+    padding-top: 60%;
+  }
+
+  .bottom-container-subtxt {
+    font-size: 1.1rem;
+  }
+
+  .bottom-container-txtpad {
+    padding-top: 70%;
+  }
+
+  #aboutMe {
+    padding: 25% 30%;
+  }
+
+  .aboutme-text {
+    font-size: 1.2rem;
+    padding-bottom: 5%;
+  }
+
+  .info-list li {
+    font-size: 1.2rem;
+  }
+
+  .btn-space {
+    font-size: 1.5rem;
+  }
+
+  .contact-media {
+    font-size: 1.2rem;
+  }
+
+  .copy-r {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1150px) {
+  .logo {
+    margin: 0 25% 0 5%;
+    width: 12%;
+  }
+
+  .navbar {
+    padding-top: 3%;
+  }
+
+  .nav-item {
+    font-size: 1rem;
+    padding-right: 10%;
+  }
+
+  .contact-media {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  .logo {
+    margin: 0 30% 0 5%;
+    width: 12%;
+  }
+}
